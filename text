@@ -1,0 +1,21 @@
+1. Test connection ( Data, user)
+2. Custom feed is created (Data, id)
+3.
+
+"Ref: [Chatbot Help Doc](https://www.chatbot.com/help/webhooks/setting-up-your-webhook/)
+
+**Part 1: Set this webhook URL in Chatbot**
+
+  1. Go to Integratoins > Workflow > Webhooks > Add a new webhook.
+  2. Add the webhook URL in the endpoint field and Enter desired webhook name in the Name endpoint. 
+  3. Click on save.
+
+**Part 2: Send a test record from Chatbot**
+
+  1. Open the story you wish to integrate.
+  2. On the top right corner, in navigation panel click on Actions & Interactions.
+  3. In actions, drag and drop webhook icon onto any desired endpoint.
+  4. Click on the webhook icon and select your webhook from the dropdown.
+  5. Now click on Test bot option and when the Webhook endpoint is triggered, record is sent.
+
+**Done. Click the ""Test Connection"" button in Integrately.**"
